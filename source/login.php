@@ -53,74 +53,55 @@
         </div>
     </div>
 
-    <div class="main">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div class="side-menu">
-                        <ul class="menu-list">
-                            <li class="item">
-                                <i class="fa-solid fa-laptop"></i>
-                                <a href="">Laptop mới</a>
-                                <i class="fa-solid fa-angle-right"></i>
-                            </li>
-                            <li class="item">
-                                <i class="fa-solid fa-gamepad"></i>
-                                <a href="">Laptop gaming</a>
-                                <i class="fa-solid fa-angle-right"></i>
-                            </li>
-                            <li class="item">
-                                <i class="fa-solid fa-pen-ruler"></i>
-                                <a href="">Laptop đồ họa</a>
-                                <i class="fa-solid fa-angle-right"></i>
-                            </li>
-                            <li class="item">
-                                <i class="fa-solid fa-building"></i>
-                                <a href="">Laptop văn phòng</a>
-                                <i class="fa-solid fa-angle-right"></i>
-                            </li>
-                            <li class="item">
-                                <i class="fa-solid fa-house-laptop"></i>
-                                <a href="">Laptop cũ</a>
-                                <i class="fa-solid fa-angle-right"></i>
-                            </li>
-                        </ul>
+    <div class="address">
+            <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <div class="container">
+                    <div class="name-bc">
+                        <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Macbook Pro 14 inch 2021 | Chính hãng Apple Việt Nam</li>
                     </div>
                 </div>
-                <div class="col-8">
-                    <div class="banner">
-                        <img class="mockup" src="./assets/img/4305488.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    
-    
-    
-    
-    
+            </ol>
+            </nav>
+        </nav>
     </div>
 
-    <div class="product-show">
+    <div class="header-name">
+        <div class="container">
+            <h1>Macbook Pro 14 inch 2021 | Chính hãng Apple Việt Nam</h1>
+        </div>
+    </div>
+    
+    <div class="product-details">
         <div class="container">
             <div class="row">
-                <div class="col-4">
-                    <div class="detail">
-                        <div class="thumbnail">
-                            <img class="" src="./assets/img/sanpham/macbook-pro-2021-007_1.webp" alt="">
-                        </div>
-                        
-                        <p class="product-name"><a href="./san-pham.php">Macbook Pro 14 inch 2021 | Chính hãng Apple Việt Nam</a></p>
+                <div class="col-md-5">
+                    <div class="pro-thumbnails">
+                        <a href="">
+                            <img src="./assets/img/sanpham/macbook-pro-2021-007_1.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="pro-price">
+                        <p>51.500.000 ₫</p>
 
-                        <p class="config">M1/16Gb/512Gb</p>
+                    </div>
 
-                        <p class="price">51.500.000 <span>&#8363;</span></p>
+                    <div class="details">
+                        <p>8 CPU - 14 GPU</p>
+                        <p>16GB - 512GB</p>
+                    </div>
+
+                    <div class="buy-button">
+                        <button type="button" class="btn btn-danger buy-now">Mua Ngay</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div></div>
 
     
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

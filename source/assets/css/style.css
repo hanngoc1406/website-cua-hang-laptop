@@ -1,0 +1,190 @@
+html body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #C64D4D;
+    width: 100%;
+    display: inline-block;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+
+.logo-img {
+    height: auto;
+    width: auto;
+    vertical-align: middle;
+}
+
+.search-form {
+    width: 300px;
+    padding-left: 50px;
+}
+
+.fa-basket-shopping-simple {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+.gio-hang {
+    margin: 30px 0 0 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.cart-text {
+    padding-top: 5px;
+}
+
+.login {
+    padding: 30px 0 30px 50px;
+}
+
+.login a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.side-menu {
+    margin: 10px 10px;
+    /* border: #000 1px solid; */
+    width: 80%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5)
+}
+
+.banner {
+    width: 100%;
+    height: 280px;
+}
+
+.mockup {
+    border-radius: 15px;
+    margin: 10px 10px;
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+}
+
+.box-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-list li {
+    padding: 35px 20px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.fa-angle-right {
+    text-align: right;
+    margin-left: 5px;
+}
+
+.detail {
+    margin: 10px 10px;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    padding: 20px 20px;
+}
+
+.detail:hover {
+    transform: scale(1.02);
+}
+
+.thumbnail img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.thumbnail {
+    text-align: center;
+}
+
+
+.product-name {
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    font-size: 110%;
+    
+}
+
+.product-name a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.config {
+    font-weight: lighter;
+    font-size: 80%;
+    padding: 0 0 10px 0;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.name-bc {
+    display: inline-flex;
+}
+
+.header-name {
+    width: 100%;
+    background-color: #fff;
+}
+
+.header-name h1 {
+    margin: 10px 0 10px 0;
+    font-size: 110%;
+    font-weight: bolder;
+}
+
+.pro-thumbnails {
+    padding: 20px 0 20px 0;
+    
+    
+}
+
+.pro-thumbnails > a > img {
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    padding: 15px 15px;
+}
+
+.pro-thumbnails:hover {
+    transform: scale(1.02);
+}
+
+.pro-price {
+    color: red;
+    font-size: 110%;
+    font-weight: bold;
+    padding: 15px 0 15px 0;
+}
+
+.buy-button {
+    padding: 50px 0 0 0;
+}
+
+.buy-now {
+    font-size: 120%;
+    width: 80%;
+}
